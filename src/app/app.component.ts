@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'angular-reactive-forms-demo';
+  title = 'angular-reactive-form-demo';
 }
