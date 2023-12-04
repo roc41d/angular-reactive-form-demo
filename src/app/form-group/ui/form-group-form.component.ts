@@ -10,7 +10,7 @@ import { User } from "../../shared/interfaces/user";
         <form class="form" (ngSubmit)="handleSubmit()" [formGroup]="userForm">
             <div class="mb-3">
                 <label for="firstNameFormControlInput" class="form-label">First Name</label>
-                <input formControlName="firstName" type="text" class="form-control" id="firstNameFormControlInput" placeholder="First Name">
+                <input formControlName="firstName" type="text" class="form-control" id="firstNameFormControlInput" placeholder="Enter first name">
             </div>
             <div class="mb-3">
                 <label for="lastNameFormControlInput" class="form-label">Last Name</label>

@@ -28,6 +28,5 @@ export class FormGroupComponent {
 
     handleSubmit(user: User) {
         this.userObj = user;
-        
     }
 }

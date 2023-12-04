@@ -17,6 +17,11 @@ export const routes: Routes = [
             import('./form-array/form-array.component').then((comp) => comp.FormArrayComponent)
     },
     {
+        path: 'form-builder',
+        loadComponent: () =>
+            import('./form-builder/form-builder.component').then((comp) => comp.FormBuilderComponent)
+    },
+    {
         path: '',
         redirectTo: 'form-control',
         pathMatch: 'full'
