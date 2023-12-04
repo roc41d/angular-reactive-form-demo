@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
         @for (link of links; track $index) {
             <a
                 [routerLink]="link.route"
+                routerLinkActive="active"
                 class="list-group-item list-group-item-action" 
                 aria-current="true">
 
