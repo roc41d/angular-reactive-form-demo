@@ -6,7 +6,9 @@ import { Component } from "@angular/core";
     template: `
     <footer class="footer">
         <div class="container-fluid">
-            <span class="text-muted"><a href="{{blogPostUrl}}">Blog post</a> | <a href="{{githubRepoUrl}}">Github repo</a></span>
+            <span class="text-muted">
+                <a href="{{blogPostUrl}}" target="_blank">Blog Post</a> | <a href="{{githubRepoUrl}}" target="_blank">Github Repo</a>
+            </span>
         </div>
     </footer>
     `,
@@ -23,5 +25,5 @@ import { Component } from "@angular/core";
 })
 export class FooterComponent {
     blogPostUrl = 'https://';
-    githubRepoUrl = 'https://';
+    githubRepoUrl = `https://github.com/roc41d/angular-reactive-form-demo`;
 }
