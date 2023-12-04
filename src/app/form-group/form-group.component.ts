@@ -11,7 +11,7 @@ import { User } from "../shared/interfaces/user";
     <app-form-group-form (onSubmit)="handleSubmit($event)"></app-form-group-form>
 
     @if (userObj) {
-        <div>
+        <div class="mt-3">
             <h5>Form Values:</h5>
             <p>First Name: {{ userObj.firstName }}</p>
             <p>Last Name: {{ userObj.lastName }}</p>
