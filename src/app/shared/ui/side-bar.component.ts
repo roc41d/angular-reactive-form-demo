@@ -25,8 +25,8 @@ import { RouterModule } from '@angular/router';
 export class SideBarComponent {
     links: {route: string, text: string}[] = [
         { route: '/form-control', text: 'From Control' },
-        { route: '/from-group', text: 'Form Group' },
-        { route: '/from-array', text: 'Form Array' },
-        { route: '/from-builder', text: 'Form Builder' },
+        { route: '/form-group', text: 'Form Group' },
+        { route: '/form-array', text: 'Form Array' },
+        { route: '/form-builder', text: 'Form Builder' },
       ];
 }
